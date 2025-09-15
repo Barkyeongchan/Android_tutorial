@@ -3,23 +3,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:padding="30dp">
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_margin="20dp"
-        android:text="아래에 이름을 입력하세요 :" />
-    <EditText
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_margin="20dp"
-        android:hint="여기에 입력하세요." />
     <Button
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_margin="20dp"
-        android:text="확인" />
+        android:layout_height="wrap_content"
+        android:text="버튼 1"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="버튼 2"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:text="버튼 3"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="버튼 4"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼 5"
+        ></Button>
 
 </LinearLayout>
