@@ -9,19 +9,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="버튼 1"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
         ></Button>
 
-    <Button
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:text="버튼 2"
-        ></Button>
+        android:layout_margin="20dp"
+        android:text="이건 텍스트뷰입니다."
 
-    <Button
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:text="이건 에디트텍스트입니다."
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
         android:clickable="false"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/grey"
         android:text="버튼 3"
         ></Button>
 
