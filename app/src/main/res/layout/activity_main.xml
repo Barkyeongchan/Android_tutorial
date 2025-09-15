@@ -2,28 +2,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <TextView
+    <EditText
+        android:id="@+id/Edit1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="textView 연습 1"
-        android:id="@+id/textView1"
-        ></TextView>
+        android:layout_margin="10dp"
+        android:hint="숫자"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="숫자" />
+
+    <Button
+        android:id="@+id/BtnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="더하기" />
+
+    <Button
+        android:id="@+id/BtnSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="빼기" />
+
+    <Button
+        android:id="@+id/BtnMul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="곱하기" />
+
+    <Button
+        android:id="@+id/BtnDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="나누기" />
 
     <TextView
+        android:id="@+id/TextResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="textView 연습 2"
-        android:id="@+id/textView2"
-        ></TextView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="textView 연습 3"
-        android:id="@+id/textView3"
-        ></TextView>
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        android:layout_margin="10dp"
+        android:text="계산 결과" />
 
 </LinearLayout>
