@@ -1,0 +1,19 @@
+# IDE / 개발 환경 관련
+*.iml
+/.idea/
+/.gradle
+
+# 빌드 / 출력물 관련
+/build
+/captures
+/externalNativeBuild
+.cxx
+*.apk
+*.aab
+
+# 개인 환경 / OS 관련
+local.properties
+.DS_Store
+
+# 로그 파일 (선택 사항)
+*.log
