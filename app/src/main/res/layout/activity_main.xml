@@ -14,28 +14,15 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
+        android:enabled="false"
         android:text="버튼 2"
         ></Button>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="visible"
+        android:clickable="false"
         android:text="버튼 3"
-        ></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        android:text="버튼 4"
-        ></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="버튼 5"
         ></Button>
 
 </LinearLayout>
