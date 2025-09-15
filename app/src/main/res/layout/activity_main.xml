@@ -5,36 +5,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/strBtn1"
-        app:cornerRadius="0dp"
-        ></Button>
+        android:id="@+id/textView1"
+        android:text="성별 선택"
+        ></TextView>
 
-    <Button
-        android:layout_width="match_parent"
+    <RadioButton
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:text="@string/strBtn2"
-        app:cornerRadius="0dp"
-        ></Button>
+        android:id="@+id/famale"
+        android:text="여성"
+        ></RadioButton>
 
-    <Button
-        android:layout_width="match_parent"
+    <RadioButton
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:text="@string/strBtn3"
-        app:cornerRadius="0dp"
-        ></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button4"
-        android:text="@string/strBtn4"
-        app:cornerRadius="0dp"
-        ></Button>
+        android:id="@+id/male"
+        android:text="남성"
+        ></RadioButton>
 
 </LinearLayout>
