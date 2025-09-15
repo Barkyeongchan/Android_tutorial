@@ -4,24 +4,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <CheckBox
+    <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/andriod"
-        android:text="안드로이드폰"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:checked="true"/>
 
-    <CheckBox
+    <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/iphone"
-        android:text="아이폰" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/andriod"
-        android:text="안드로이드폰"
-        android:checked="true"/>
+        android:checked="false"/>
 
 </LinearLayout>
