@@ -4,63 +4,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/Edit1"
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:hint="숫자"
-        ></EditText>
+        android:id="@+id/andriod"
+        android:text="안드로이드폰"
+        android:checked="true"/>
 
-    <EditText
-        android:id="@+id/Edit2"
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:hint="숫자" />
+        android:id="@+id/iphone"
+        android:text="아이폰" />
 
-    <Button
-        android:id="@+id/BtnAdd"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="더하기" />
-
-    <Button
-        android:id="@+id/BtnSub"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="빼기" />
-
-    <Button
-        android:id="@+id/BtnMul"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="곱하기" />
-
-    <Button
-        android:id="@+id/BtnDiv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="나누기" />
-
-    <Button
-        android:id="@+id/BtnMod"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="나머지 값" />
-
-    <TextView
-        android:id="@+id/TextResult"
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:textColor="#FF0000"
-        android:layout_margin="10dp"
-        android:text="계산 결과" />
+        android:id="@+id/andriod"
+        android:text="안드로이드폰"
+        android:checked="true"/>
 
 </LinearLayout>
