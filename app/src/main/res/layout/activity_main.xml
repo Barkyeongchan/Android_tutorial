@@ -8,40 +8,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="textSixe 속성"
+        android:text="textView 연습 1"
+        android:id="@+id/textView1"
         ></TextView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:textColor="@color/green"
-        android:text="textColor 속성"
+        android:text="textView 연습 2"
+        android:id="@+id/textView2"
         ></TextView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:textStyle="bold|italic"
-        android:text="textStyle 속성"
-        ></TextView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:typeface="serif"
-        android:text="textface 속성"
-        ></TextView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:singleLine="true"
-        android:text="textsingleLine 속성 textsingleLine 속성 textsingleLine 속성"
+        android:text="textView 연습 3"
+        android:id="@+id/textView3"
         ></TextView>
 
 </LinearLayout>
