@@ -5,38 +5,43 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="버튼 1"
-        android:backgroundTint="@color/green"
-        android:textColor="@color/black"
-        android:layout_margin="20dp"
-        ></Button>
+        android:textSize="30dp"
+        android:text="textSixe 속성"
+        ></TextView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:enabled="false"
-        android:layout_margin="20dp"
-        android:text="이건 텍스트뷰입니다."
+        android:textSize="30dp"
+        android:textColor="@color/green"
+        android:text="textColor 속성"
+        ></TextView>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/blue"
-        android:textColor="@color/black"
-        android:layout_margin="20dp"
-        android:text="이건 에디트텍스트입니다."
-        ></EditText>
-
-    <Button
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:clickable="false"
-        android:layout_margin="20dp"
-        android:backgroundTint="@color/grey"
-        android:text="버튼 3"
-        ></Button>
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:text="textStyle 속성"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:text="textface 속성"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:singleLine="true"
+        android:text="textsingleLine 속성 textsingleLine 속성 textsingleLine 속성"
+        ></TextView>
 
 </LinearLayout>
