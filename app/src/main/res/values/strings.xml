@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">BaseApp</string>
-    <string name="strBtn1">버튼입니다</string>
+    <string name="strBtn1">구글 연결</string>
+    <string name="strBtn2">911 전화</string>
+    <string name="strBtn3">갤러리 열기</string>
+    <string name="strBtn4">앱 종료</string>
 </resources>
